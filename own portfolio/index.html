@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anas Khan — Front-End Web Developer portfolio">
+  <title>Anas Khan | Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">AK<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu"><span></span><span></span></button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">FRONT-END WEB DEVELOPER</p>
+        <h1>BUILDING<br><span>THE WEB</span><br>WITH CODE.</h1>
+        <p class="intro">I’m Anas Khan — a passionate front-end developer creating clean, responsive and interactive websites with HTML, CSS and JavaScript.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="photo-frame">
+          <img src="crop own image.png" alt="Anas Khan">
+        </div>
+        <div class="floating-tag tag-one">HTML</div>
+        <div class="floating-tag tag-two">CSS</div>
+        <div class="floating-tag tag-three">JS</div>
+      </div>
+
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Turning ideas into <em>interactive</em> experiences.</h2>
+        </div>
+        <div class="about-text">
+          <p>I am Anas Khan, a Front-End Web Developer from Pakistan. I enjoy turning ideas and designs into functional websites with responsive layouts, smooth interactions and engaging user experiences.</p>
+          <p>I work with HTML5, CSS3 and JavaScript and I’m continuously improving my skills by building practical projects and learning new front-end techniques.</p>
+          <div class="stats">
+            <div><strong>03</strong><span>CORE<br>TECHNOLOGIES</span></div>
+            <div><strong>∞</strong><span>IDEAS TO<br>BUILD</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="section-label dark-label">02 / SKILLS</div>
+      <div class="skills-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>MY TOOLKIT<span>.</span></h2>
+      </div>
+      <div class="skill-list">
+        <div class="skill-card"><b>01</b><h3>HTML5</h3><p>Semantic, structured and accessible web pages.</p></div>
+        <div class="skill-card"><b>02</b><h3>CSS3</h3><p>Responsive layouts, modern styling and animations.</p></div>
+        <div class="skill-card"><b>03</b><h3>JavaScript</h3><p>Interactive interfaces and dynamic functionality.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="section-label">03 / PROJECTS</div>
+      <div class="projects-top">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>PROJECTS<br><span>IN PROGRESS.</span></h2>
+        </div>
+        <p class="projects-note">A growing collection of front-end experiments, websites and practical projects built while developing my skills.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-info"><span>WEB DEVELOPMENT</span><h3>Restaurant Website</h3><p>A modern restaurant experience with responsive layouts and interactive sections.</p><a href="restaurant/index.html" class="demo-btn" target="_main">LIVE DEMO ↗</a></div>
+          <div class="mockup restaurant"><div class="mockup-nav">SAVORÉ <span>MENU &nbsp; ABOUT &nbsp; CONTACT</span></div><div class="mockup-content"><small>EXPERIENCE</small><strong>GOOD FOOD.<br>GREAT MOMENTS.</strong><button>EXPLORE MENU</button></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-info"><span>HTML / CSS / JS</span><h3>Personal Portfolio</h3><p>A personal developer portfolio focused on clean UI and smooth interactions.</p><button class="demo-btn" data-message="This is your current portfolio project.">CURRENT SITE ↗</button></div>
+          <div class="mockup portfolio"><div class="code-line w1"></div><div class="code-line w2"></div><div class="code-line w3"></div><div class="code-line w4"></div><div class="code-line w2"></div><div class="code-line w5"></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-info"><span>LANDING PAGE</span><h3>Business Landing Page</h3><p>A responsive landing page concept designed around strong visual hierarchy and clear calls to action.</p><button class="demo-btn" data-message="Add your business landing page link here.">LIVE DEMO ↗</button></div>
+          <div class="mockup business"><div class="business-block"></div><div class="business-lines"><i></i><i></i><i></i></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-label">04 / CONTACT</div>
+      <div class="contact-inner">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>LET'S BUILD<br><span>SOMETHING GREAT.</span></h2>
+        <a class="email-link" href="mailto:anaskhandesigns2@gmail.com">anaskhandesigns2@gmail.com <span>↗</span></a>
+        <p class="phone">+92 304 7127749</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>ANAS KHAN <span>— FRONT-END DEVELOPER</span></div>
+    <div>PAKISTAN · <span id="year"></span></div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="./script.js"></script>
+</body>
+</html>

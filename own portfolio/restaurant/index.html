@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAVORÉ | Modern Restaurant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="#" class="logo">
+        SAVORÉ<span>.</span>
+    </a>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#reservation" class="reserve-btn">
+        Reserve Table
+    </a>
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
+    </button>
+
+</header>
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            WELCOME TO SAVORÉ
+        </p>
+
+        <h1>
+            Taste the art<br>
+            of <span>fine dining.</span>
+        </h1>
+
+        <p>
+            Experience unforgettable flavors, carefully crafted
+            dishes and an atmosphere designed for special moments.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="main-btn">
+                Explore Menu
+            </a>
+
+            <a href="#reservation" class="outline-btn">
+                Reserve a Table
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="scroll">
+        SCROLL ↓
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about section">
+
+    <div class="about-image">
+        <div class="image-box">
+            <img src="images/restaurant.jpg.png " alt="Restaurant interior">
+        </div>
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-label">
+            OUR STORY
+        </p>
+
+        <h2>
+            Where passion<br>
+            meets <span>flavor.</span>
+        </h2>
+
+        <p>
+            SAVORÉ was created from a simple idea — great food
+            should create great memories.
+        </p>
+
+        <p>
+            Our chefs combine carefully selected ingredients,
+            traditional techniques and modern presentation
+            to create dishes that are both familiar and exciting.
+        </p>
+
+        <a href="#menu" class="text-link">
+            Discover our menu →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- MENU -->
+
+<section id="menu" class="menu section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            OUR MENU
+        </p>
+
+        <h2>
+            Crafted with <span>passion.</span>
+        </h2>
+
+        <p>
+            Explore some of our signature dishes.
+        </p>
+
+    </div>
+
+
+    <div class="menu-buttons">
+
+        <button class="filter active" data-category="all">
+            All
+        </button>
+
+        <button class="filter" data-category="starter">
+            Starters
+        </button>
+
+        <button class="filter" data-category="main">
+            Main Course
+        </button>
+
+        <button class="filter" data-category="dessert">
+            Desserts
+        </button>
+
+    </div>
+
+
+    <div class="food-grid">
+
+        <article class="food-card" data-category="starter">
+
+            <img src="images/bruschetta.jpg.png" alt="Bruschetta">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Classic Bruschetta</h3>
+                    <p>Tomato, basil and olive oil.</p>
+                </div>
+
+                <strong>$8</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="food-card" data-category="main">
+
+            <img src="images/steak.jpg.png" alt="Steak">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Signature Steak</h3>
+                    <p>Grilled premium beef with herbs.</p>
+                </div>
+
+                <strong>$28</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="food-card" data-category="main">
+
+            <img src="images/pasta.jpg.png" alt="Pasta">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Truffle Pasta</h3>
+                    <p>Creamy pasta with fresh truffle.</p>
+                </div>
+
+                <strong>$19</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="food-card" data-category="main">
+
+            <img src="images/pizza.jpg.png" alt="Pizza">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Garden Pizza</h3>
+                    <p>Fresh vegetables and mozzarella.</p>
+                </div>
+
+                <strong>$16</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="food-card" data-category="dessert">
+
+            <img src="images/dessert.jpg.png" alt="Dessert">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Chocolate Delight</h3>
+                    <p>Rich chocolate with vanilla cream.</p>
+                </div>
+
+                <strong>$10</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="food-card" data-category="starter">
+
+            <img src="images/salad.jpg.png" alt="Salad">
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Fresh Garden Salad</h3>
+                    <p>Seasonal vegetables and house dressing.</p>
+                </div>
+
+                <strong>$9</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section class="experience">
+
+    <div class="experience-content">
+
+        <p class="section-label">
+            THE SAVORÉ EXPERIENCE
+        </p>
+
+        <h2>
+            More than<br>
+            just <span>dinner.</span>
+        </h2>
+
+        <p>
+            From the first bite to the final dessert,
+            every detail is carefully designed to make
+            your visit unforgettable.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+
+<section id="gallery" class="gallery section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            OUR SPACE
+        </p>
+
+        <h2>
+            A place to <span>remember.</span>
+        </h2>
+
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="images/gallery1.jpg.png" alt="Restaurant">
+        <img src="images/gallery2.jpg.png" alt="Food">
+        <img src="images/gallery3.jpg.png" alt="Dining">
+        <img src="images/gallery4.jpg.png" alt="Restaurant food">
+
+    </div>
+
+</section>
+
+
+<!-- RESERVATION -->
+
+<section id="reservation" class="reservation section">
+
+    <div class="reservation-content">
+
+        <p class="section-label">
+            RESERVATION
+        </p>
+
+        <h2>
+            Your table<br>
+            is <span>waiting.</span>
+        </h2>
+
+        <form id="reservationForm">
+
+            <div class="input-row">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-row">
+
+                <input
+                    type="date"
+                    required
+                >
+
+                <input
+                    type="time"
+                    required
+                >
+
+            </div>
+
+
+            <select required>
+
+                <option value="">
+                    Number of Guests
+                </option>
+
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5+ Guests</option>
+
+            </select>
+
+
+            <button type="submit" class="main-btn">
+                Reserve My Table
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact section">
+
+    <div>
+
+        <p class="section-label">
+            FIND US
+        </p>
+
+        <h2>
+            Come say <span>hello.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="contact-info">
+
+        <p>
+            📍 Main Street, Islamabad, Pakistan
+        </p>
+
+        <p>
+            📞 +92 300 1234567
+        </p>
+
+        <p>
+            ✉ hello@savore.com
+        </p>
+
+        <p>
+            Monday – Sunday<br>
+            12:00 PM – 11:00 PM
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        SAVORÉ<span>.</span>
+    </div>
+
+    <p>
+        Crafted with passion.
+    </p>
+
+    <p>
+        © <span id="year"></span> SAVORÉ
+    </p>
+
+</footer>
+
+
+<div id="toast" class="toast">
+    Reservation received! We'll contact you shortly.
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
